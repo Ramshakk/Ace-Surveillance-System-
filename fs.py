@@ -120,8 +120,8 @@ label_dict = get_label_dict(class_indices)
 video_path = "FYP//t1.mp4"
 
 def predict1(model, video_path, label_dict,root):
-    # account_sid = 'AC1b81c692e1254d17ea554f604444b636'
-    # auth_token = '4d8875c629b6b9603e08e545047a509f'
+    # account_sid = ""
+    # auth_token = ""
     # client = Client(account_sid, auth_token)
     
     vs = cv2.VideoCapture(video_path)
